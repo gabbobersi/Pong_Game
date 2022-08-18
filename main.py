@@ -85,7 +85,7 @@ while True:
     ball.setx(ball.xcor() + ball_x)
     ball.sety(ball.ycor() + ball_y)
 
-    # Border check - If ball hit a certain point, it bounce.
+    # Border check - If ball hits a certain point, it bounces.
     if ball.ycor() > 290:
         ball.sety(290)
         ball_y *= -1
@@ -120,4 +120,4 @@ while True:
         ball.setx(-340)
         ball_x *= -1
 
-    time.sleep(0.0002)      # "Fixed extra ugly FPS on my machine..." It can be remove maybe. Turtle don't handle FPS?
+    time.sleep(0.0002)      # "Fixed extra ugly FPS on my machine..." It can be remove maybe. Turtle don't handles FPS?
