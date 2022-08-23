@@ -1,4 +1,4 @@
-# Pong game
+# Pong game with Turtle module
 This project represents an attempt to make the classic "Pong" game, but with **Turtle** standard module, instead of wellknown Pygame library.
 
 Every match is "endless" (no points limit) and simply starts with the execution of the script.
