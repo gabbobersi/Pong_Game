@@ -1,7 +1,6 @@
 import time
 import turtle
 import math
-import logging
 
 
 window = turtle.Screen()
@@ -101,7 +100,6 @@ while True:
         pen.write(f'Player A: {score_a}\tPlayer B: {score_b}', align='center', font=('Courier', 24, "normal"))
 
     if ball.xcor() < - 390:
-        logging.debug("Hit!")
         ball_x *= -1
         score_b += 1
         pen.clear()
