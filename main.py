@@ -118,4 +118,4 @@ while True:
         ball.setx(-340)
         ball_x *= -1
 
-    time.sleep(0.0002)      # "Fixed extra ugly FPS on my machine..." It can be remove maybe. Turtle doesn't handles FPS?
+    time.sleep(0.0002)      # FPS need to be calculated manually. ToDo, in the meantime I use just sleep to limit calculations. 
